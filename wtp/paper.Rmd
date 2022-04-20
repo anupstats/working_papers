@@ -1,0 +1,35 @@
+---
+title: "Waiting Time Paradox"
+author: "Anup Kumar"
+date: '2022-04-20'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Waiting time paradox
+The waiting-time paradox, also known as the inspection paradox and renewal-theory paradox, is a mathematical phenomenon known in the queuing theory and stochastic processes literature for a long time [feller – ]. As its yet another alias, the bus paradox, suggests, we experience this
+paradox in everyday life when we are waiting at a bus stop for the next bus to arrive. Consider
+the time for which a passenger has to wait until the next bus comes since the passenger arrived
+at the bus stop, which is called the waiting time. Here, we assume an inattentive passenger who
+arrives at the bus stop without checking the timetable, so that the time of arrival is distributed
+uniformly at random. The naive guess would be that the average waiting time is equal to
+half of the average time interval between two buses expected from the timetable. However,
+the waiting-time paradox states that it is in fact longer unless the buses arrive at the stop
+completely regularly.
+
+[Ref1](https://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/)
+Suppose that 06 buses come each hour, so one bus comes every 10 minutes on average. If the most recent bus leaves right before you arrive, you may have to wait 9 or 10 minutes for the next bus. If the most recent bus leaves a few minutes before you arrive, maybe the next bus will come in only 1 minute. Or maybe 8 minutes, or perhaps 2 minutes? An educated guess for your “waiting time” is 5 minutes, which is half the time between buses on average. However, this reasoning is incorrect. Typically, you must wait longer than 5 minutes. Your expected waiting time can be even longer than 10 minutes. This phenomenon is called the waiting-time paradox. 
+A mathematical phenomenon about times that seems like it may not make sense but is in fact correct. In the waiting-time paradox, if an event occurs at a time that we pick uniformly at random, the average waiting time until the next event is typically larger than half of the inter-event time. The waiting-time paradox is also called the “bus paradox” and the “inspection paradox.” [Ref2](https://arxiv.org/pdf/2004.14081.pdf). A paradox is a something that seems like it does not make sense but actually turns out to be correct. Many people think of the waiting-time paradox as a paradox because a typical waiting time at a bus station is longer than half of the average interval of time between buses (which is 5 minutes in the example above). The waiting-time paradox is a mathematical phenomenon and has nothing to do with buses. What is this phenomenon and how does it fool us? Keep reading to find out!
+[Ref3](https://towardsdatascience.com/the-inspection-paradox-is-everywhere-2ef1c2e9d709).
+
+
+
+[ggrepel](https://github.com/slowkow/ggrepel)
+
+
+```{r cars}
+
+```
