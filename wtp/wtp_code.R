@@ -1,9 +1,7 @@
-n = 1000000 # number of buses
-tau = 10 # average minute between arrivals
-rand = set.seed(42)
-bus_arrival_time = n * tau * rand
+
 
 # draw from Poisson distribution and create the cumulative sum for the bus times
+
 buses <- cumsum(rexp(1000, rate=1/10))
 # draw from uniform distribution and sort for the person arrival times
 arrivals <- sort(runif(1000)*1000*10)
